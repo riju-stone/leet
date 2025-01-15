@@ -27,6 +27,11 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt
 your solution to such a case?
  */
 
+#include "string"
+#include "unordered_map"
+
+using namespace std;
+
 class Solution {
 public:
   bool isAnagram(string s, string t) {

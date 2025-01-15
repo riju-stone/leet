@@ -32,6 +32,10 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 array does not count as extra space for space complexity analysis.)
  */
 
+#include "vector"
+
+using namespace std;
+
 class Solution {
 public:
   vector<int> productExceptSelf(vector<int> &nums) {

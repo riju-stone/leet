@@ -26,6 +26,12 @@ Follow up: Your algorithm's time complexity must be better than O(n log n),
 where n is the array's size.
  */
 
+#include "queue"
+#include "unordered_map"
+#include "vector"
+
+using namespace std;
+
 class Solution {
 public:
   vector<int> topKFrequent(vector<int> &nums, int k) {

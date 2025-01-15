@@ -28,6 +28,10 @@ Constraints:
 strs[i] consists of lowercase English letters.
  */
 
+#include "unordered_map"
+#include "vector"
+
+using namespace std;
 class Solution {
 private:
   std::string generateWordKey(std::string word) {

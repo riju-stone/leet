@@ -35,6 +35,10 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time
 complexity?
  */
+#include "unordered_map"
+#include "vector"
+
+using namespace std;
 
 class Solution {
 public:
